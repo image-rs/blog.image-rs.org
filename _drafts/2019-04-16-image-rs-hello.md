@@ -9,7 +9,7 @@ are excited to continue the work on image processing under the new group,
 but freed from the strong ties to the game engine. We'll have two groups of
 contributors:
 
-* **Members**, without write access to source code repositories. [Get you
+* **Members**, without write access to source code repositories. [Get your
   membership][Member] today. This helps you stay subscribed and shows us and
   everyone else your interest in the project.  Everyone has access to the blog
   and webpage nonetheless, regardless of code contributions. Did you use the
@@ -31,4 +31,7 @@ processes within the organization. Now is the chance to define a new and do
 some spring cleaning, and *you* can help. The new concept is similar to Rust's
 own but even less formal (for now, as we are smaller). We'll collectively
 define an overall yearly vision to help with decisions in the face of
-uncertainty. Instead of a separate RFC repository, any larger scale changes
+uncertainty. But we don't (yet?) have a need for a separate RFC repository and
+it seems as larger scale changes still fit into issue threads.
+
+Simply put, hello and welcome!
