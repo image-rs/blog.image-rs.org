@@ -1,4 +1,7 @@
-# Hello, `image-rs`
+---
+layout: post
+title: "Hello, image-rs"
+---
 
 The image related projects have been moved out of the Piston organization. We
 are excited to continue the work on image processing under the new group,
