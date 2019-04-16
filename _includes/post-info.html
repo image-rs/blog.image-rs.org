@@ -1,0 +1,7 @@
+<time class="post-info-date" datetime="{{ include.date | date: "%FT%T%-z" }}">
+	{{ include.date | date: "%B %-d, %Y" }}
+</time>
+<small>by</small>
+<span class="post-info-author">
+	{% include gitavatar.html author=include.author %}
+</span>
