@@ -1,5 +1,6 @@
 ---
 layout: post
+author: HeroicKatora
 title: "Hello, image-rs"
 ---
 
