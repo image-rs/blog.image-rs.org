@@ -12,9 +12,9 @@
 			{% include post-info.html author=post.author date=post.date %}
 		</section>
 
-		<main class="post-content">
+		<section class="post-content">
 			{{ post.excerpt }}
-		</main>
+		</section>
 
 		<p>
 			<a href="{{ post.url }}" class="image-rs-internal-link">Continue reading &#8230;</a>
