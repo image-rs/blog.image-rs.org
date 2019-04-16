@@ -8,7 +8,7 @@
 			<a href="{{ post.url }}" class="image-rs-internal-link">{{ post.title }}</a>
 		</h1>
 
-		<section class="post-info">
+		<section class="post-info" role="note">
 			{% include post-info.html author=post.author date=post.date %}
 		</section>
 
