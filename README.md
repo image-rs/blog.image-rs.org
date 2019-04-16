@@ -1,3 +1,20 @@
+## Contributing
+
+Any member of the organization is welcome to contribute to the blog, not only
+collaborators. The main branch that is served over `blog.image-rs.org` should
+only be changed through PRs with at least one review, regardless of the author.
+Major changes to the structure or look should gather some feedback over a week
+but at least three days (so that one is a work day).
+
+Most pressing issues:
+
+* Design the pages instead of relying on a rather unstructured default look.
+* Establish a system for tags and categories
+* Evaluate how to present posts by member that do not concern the project
+  itself, such as library usage reports, abstract ideas and visions, and
+  educational content on image related topics. Possibly through a
+  weekly/monthy/quarterly aggregation post and summary paragraphs?
+
 ## Serving locally
 
 For basic usage, follow [the official Github guide][GHGuide]. If you are not
