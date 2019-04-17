@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<article class="image-rs-post">
+	<h1 class="post-title">
+		{{ page.title }}
+	</h1>
+
+	<section class="post-info" role="note">
+		{% include post-info.html author=page.author date=page.date %}
+	</section>
+
+	<main class="post-content">
+		{{ content }}
+	</main>
+</article>

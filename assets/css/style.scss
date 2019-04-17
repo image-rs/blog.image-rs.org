@@ -1,0 +1,25 @@
+---
+---
+
+@import "jekyll-theme-slate";
+
+.image-rs-inline-avatar {
+  display: inline;
+  margin: 0px;
+  height: 1em;
+  vertical-align: text-bottom;
+}
+
+.post-info {
+  text-align: right;
+  font-weight: bold;
+}
+
+.subtle-link {
+  color: inherit;
+}
+
+a:hover {
+  color: #0F79D0;
+  text-decoration: none;
+}
