@@ -1,4 +1,8 @@
-# Advisory about potential memory unsafety issues
+---
+layout: post
+author: HeroicKatora
+title: "Advisory about potential memory unsafety issues"
+---
 
 [While reviewing][i885] some `unsafe Vec::from_raw_parts` operations within the
 library, trying to justify their existence with stronger reasoning, we noticed
@@ -9,7 +13,10 @@ unjustified reasoning had been applied by a dependency introduced in `0.21`.
 The following versions are affected:
 
 * `0.21` – please upgrade to `0.21.1`
-* `0.20` with feature `hdr` – disable the feature
+* `>=0.10.0,<0.21.0` with feature `hdr` – disable the feature
+
+We're monitoring continued usage of `0.19` and `0.20` and may backport the
+memory safety fix to these version if deemed necessary.
 
 ## Description of the issue
 
