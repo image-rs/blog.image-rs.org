@@ -31,4 +31,22 @@ safer–forbidding `unsafe` code; it is faster–with typically between 1.3× to
 decoding throughput; and it has a more detailed interface–allowing more control
 over buffer allocations and limits.
 
+## Want to help?
+
+The community member {% include gitavatar.html author="Shnatsel" %}, who
+suggested going for `miniz_oxide` initially, has recently compiled a list of
+important issues that could be tackled by new contributors across all of
+`image-rs`:
+
+* <https://github.com/image-rs/image-png/issues/206>
+* <https://github.com/image-rs/jpeg-decoder/issues/96>
+* <https://github.com/image-rs/image/issues/1238>
+* <https://github.com/image-rs/image/issues/1165>
+* <https://github.com/image-rs/image/issues/862>
+
+Beyond these we are always grateful for further performance improvements, the
+story is nowhere near finished. There are a number of buffer copies and other
+inefficiencies that add up. Everything is tested with some internal and
+integration benchmarks that You can target to improve.
+
 [APNG]: https://wiki.mozilla.org/APNG_Specification
