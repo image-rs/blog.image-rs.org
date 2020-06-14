@@ -20,6 +20,10 @@ decoder.) In the wake of these changes we fixed a few bugs. It is no longer
 required that the APNG data is valid if only the initial still image is
 requested.
 
+A big Thank You to everyone who was involved, with code, bug reports,
+reproduction cases, testing, and sanity checks. It's always a pleasure if bug
+reports come with insightful debugging already finished.
+
 The encoding support will arrive at a later date, an implementation draft with
 corresponding PR already exists but needs more polishing. Meanwhile encoding of
 palette-based pixel data has been integrated and is being released with this
