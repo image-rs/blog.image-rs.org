@@ -3,6 +3,13 @@
 
 @import "jekyll-theme-slate";
 
+table td {
+  /**For some reason the design has baseline here which makes rows where some
+   * cells are larger than others incredibly weird.
+   */
+   vertical-align: middle;
+}
+
 .image-rs-inline-avatar {
   display: inline;
   margin: 0px;
