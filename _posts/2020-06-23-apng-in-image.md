@@ -12,7 +12,7 @@ and the newest releases here:
 
 | Website | Crates.io | Command |
 | [![emulsion-icon][emulsion-icon]][emulsion-website] | [![crates.io](https://img.shields.io/crates/v/emulsion.svg)](https://crates.io/crates/emulsion) | `cargo install emulsion` |
-| <a href="https://github.com/image-rs/image"><img src="https://github.com/image-rs.png?size=20" width="48"/></a> | [![crates.io](https://img.shields.io/crates/v/image.svg)](https://crates.io/crates/image) | `image = "0.23.6"` |
+| <a href="https://github.com/image-rs/image"><img src="https://github.com/image-rs.png?size=200" width="48"/></a> | [![crates.io](https://img.shields.io/crates/v/image.svg)](https://crates.io/crates/image) | `image = "0.23.6"` |
 
 Another piece of news is that `png` has now been fuzzed on 32-bit
 architectures, specifically the `i686-unknown-linux-gnu` target. This revealed
