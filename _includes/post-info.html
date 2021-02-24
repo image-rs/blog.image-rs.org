@@ -5,3 +5,12 @@
 <span class="post-info-author">
 	{% include gitavatar.html author=include.author %}
 </span>
+{% if include.co_authors %}
+	<br>
+	<small>co-authored by</small>
+	<span class="post-info-author">
+		{% for co in include.co_authors %}
+			{% include gitavatar.html author=co %}
+		{% endfor %}
+	</span>
+{% endif %}
