@@ -103,7 +103,7 @@ Our default DEFLATE compression backend is [miniz_oxide](https://crates.io/crate
 
 You can configure image-png to use zlib-rs as the DEFLATE compression backend. This provides [outstanding performance](https://trifectatech.org/blog/zlib-rs-is-faster-than-c/) at the cost of some `unsafe` code: the constraint of being a drop-in replacement for a C library necessitates some `unsafe` parts.
 
-We want to provide world-leading performance without compromises: performance, guaranteed safety and high compression ratio all at once. We have already achived this for decoding, in part thanks to our [custom DEFLATE implementation](https://crates.io/crates/fdeflate). We are now working on extending it for compression as well, and the early tests are very promising!
+We want to provide world-leading performance without compromises: performance, guaranteed safety and high compression ratio all at once. We have already achieved this for decoding, in part thanks to our [custom DEFLATE implementation](https://crates.io/crates/fdeflate). We are now working on extending it for compression as well, and the early tests are very promising!
 
 ## Acknowledgements
 
